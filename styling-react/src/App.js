@@ -1,12 +1,14 @@
-import "./App.css";
-import SassComponent from "./SassComponent";
+import React, { Component } from "react";
+import SassComponent from "./SassComponent.js";
 
-function App() {
-  return (
-    <div className="App">
-      <SassComponent />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SassComponent />
+      </div>
+    );
+  }
 }
 
 export default App;
